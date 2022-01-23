@@ -8,6 +8,10 @@ TagManager:
   - LevelController
   - UIController
   - Elmas
+  - ENGEL
+  - DegersizEsya
+  - KAPI
+  - Collectable
   layers:
   - Default
   - TransparentFX
