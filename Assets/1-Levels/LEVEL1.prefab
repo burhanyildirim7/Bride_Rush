@@ -969,6 +969,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7636564051618693488}
     m_Modifications:
+    - target: {fileID: 452777694088567064, guid: 6d42b5f755a70f84f91ae0db129efefc, type: 3}
+      propertyPath: m_Text
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3546763456973441265, guid: 6d42b5f755a70f84f91ae0db129efefc, type: 3}
+      propertyPath: _kapiDegeri
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5934152942055955613, guid: 6d42b5f755a70f84f91ae0db129efefc, type: 3}
       propertyPath: m_Text
       value: +5
@@ -1020,6 +1028,18 @@ PrefabInstance:
     - target: {fileID: 5934152942167290327, guid: 6d42b5f755a70f84f91ae0db129efefc, type: 3}
       propertyPath: m_Name
       value: "\xC7iftKap\u0131"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5934152942445484682, guid: 6d42b5f755a70f84f91ae0db129efefc, type: 3}
+      propertyPath: m_TagString
+      value: ToplamaKapisi
+      objectReference: {fileID: 0}
+    - target: {fileID: 7720555572211260992, guid: 6d42b5f755a70f84f91ae0db129efefc, type: 3}
+      propertyPath: m_TagString
+      value: CikartmaKapisi
+      objectReference: {fileID: 0}
+    - target: {fileID: 8112572026906580352, guid: 6d42b5f755a70f84f91ae0db129efefc, type: 3}
+      propertyPath: _kapiDegeri
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d42b5f755a70f84f91ae0db129efefc, type: 3}
@@ -1101,6 +1121,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7636564051618693488}
     m_Modifications:
+    - target: {fileID: 945344169665357150, guid: 29bcfdbe732e11d448eea92cd9897007, type: 3}
+      propertyPath: _kapiDegeri
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1155380768801354444, guid: 29bcfdbe732e11d448eea92cd9897007, type: 3}
+      propertyPath: m_TagString
+      value: ToplamaKapisi
+      objectReference: {fileID: 0}
     - target: {fileID: 1155380769079548304, guid: 29bcfdbe732e11d448eea92cd9897007, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -7906,9 +7934,13 @@ PrefabInstance:
       propertyPath: m_Text
       value: +5
       objectReference: {fileID: 0}
+    - target: {fileID: 3546763456973441265, guid: 6d42b5f755a70f84f91ae0db129efefc, type: 3}
+      propertyPath: _kapiDegeri
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 5934152942055955613, guid: 6d42b5f755a70f84f91ae0db129efefc, type: 3}
       propertyPath: m_Text
-      value: x3
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 5934152942167290326, guid: 6d42b5f755a70f84f91ae0db129efefc, type: 3}
       propertyPath: m_RootOrder
@@ -7965,6 +7997,18 @@ PrefabInstance:
     - target: {fileID: 5934152942167290327, guid: 6d42b5f755a70f84f91ae0db129efefc, type: 3}
       propertyPath: m_Name
       value: "\xC7iftKap\u0131 (1)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5934152942445484682, guid: 6d42b5f755a70f84f91ae0db129efefc, type: 3}
+      propertyPath: m_TagString
+      value: CikartmaKapisi
+      objectReference: {fileID: 0}
+    - target: {fileID: 7720555572211260992, guid: 6d42b5f755a70f84f91ae0db129efefc, type: 3}
+      propertyPath: m_TagString
+      value: ToplamaKapisi
+      objectReference: {fileID: 0}
+    - target: {fileID: 8112572026906580352, guid: 6d42b5f755a70f84f91ae0db129efefc, type: 3}
+      propertyPath: _kapiDegeri
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d42b5f755a70f84f91ae0db129efefc, type: 3}
@@ -8047,6 +8091,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7636564051618693488}
     m_Modifications:
+    - target: {fileID: 945344169665357150, guid: 29bcfdbe732e11d448eea92cd9897007, type: 3}
+      propertyPath: _kapiDegeri
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1155380768801354444, guid: 29bcfdbe732e11d448eea92cd9897007, type: 3}
+      propertyPath: m_TagString
+      value: ToplamaKapisi
+      objectReference: {fileID: 0}
     - target: {fileID: 1155380769079548304, guid: 29bcfdbe732e11d448eea92cd9897007, type: 3}
       propertyPath: m_RootOrder
       value: 1

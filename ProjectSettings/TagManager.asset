@@ -12,6 +12,8 @@ TagManager:
   - DegersizEsya
   - KAPI
   - Collectable
+  - ToplamaKapisi
+  - CikartmaKapisi
   layers:
   - Default
   - TransparentFX

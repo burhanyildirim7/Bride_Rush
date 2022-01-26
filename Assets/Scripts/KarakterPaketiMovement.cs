@@ -8,7 +8,7 @@ public class KarakterPaketiMovement : MonoBehaviour
 
     void Start()
     {
-     
+
     }
 
 
@@ -16,13 +16,13 @@ public class KarakterPaketiMovement : MonoBehaviour
     {
         if (GameController._oyunAktif == true)
         {
-            transform.Translate(Vector3.forward * Time.deltaTime * _speed);
+            transform.Translate(Vector3.back * Time.deltaTime * _speed);
         }
         else
         {
 
         }
-        
+
     }
 
 }
