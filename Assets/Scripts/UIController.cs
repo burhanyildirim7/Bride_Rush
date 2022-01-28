@@ -11,10 +11,15 @@ public class UIController : MonoBehaviour
     [SerializeField] private GameObject _loseScreenPanel;
 
     [SerializeField] private Text _levelText;
+    [SerializeField] private Text _tapToStartLevelText;
     [SerializeField] private Text _elmasText;
     [SerializeField] private Text _winElmasText;
     [SerializeField] private Text _loseElmasText;
     [SerializeField] private Text _tapToStartElmasText;
+
+    //[SerializeField] private GameObject _levelTextObject;
+    //[SerializeField] private GameObject _levelCoinObject;
+
 
     private int _levelNumber;
 
@@ -67,6 +72,7 @@ public class UIController : MonoBehaviour
 
         _levelText.text = "LEVEL " + (_levelNumber);
 
+        _tapToStartLevelText.text = "LEVEL " + (_levelNumber);
 
         _elmasText.text = _elmasSayisi.ToString();
     }
@@ -76,6 +82,8 @@ public class UIController : MonoBehaviour
         GameController._oyunAktif = true;
         _tapToStartPanel.SetActive(false);
         _gameScreenPanel.SetActive(true);
+        //_levelTextObject.SetActive(false);
+        //_levelCoinObject.SetActive(false);
         _playerController = GameObject.FindWithTag("Player").GetComponent<PlayerController>();
         _playerController.GelinKossun();
     }
@@ -96,10 +104,13 @@ public class UIController : MonoBehaviour
 
     public void NextLevelButton()
     {
+
         GameController._oyunAktif = false;
         _winScreenPanel.SetActive(false);
         _loseScreenPanel.SetActive(false);
         _tapToStartPanel.SetActive(true);
+        //_levelTextObject.SetActive(true);
+        //_levelCoinObject.SetActive(true);
         _elmasSayisi = _elmasSayisi + _levelSonuElmasSayisi;
         PlayerPrefs.SetInt("ElmasSayisi", _elmasSayisi);
         _tapToStartElmasText.text = _elmasSayisi.ToString();
@@ -115,10 +126,13 @@ public class UIController : MonoBehaviour
 
     public void LevelRestartButton()
     {
+
         GameController._oyunAktif = false;
         _winScreenPanel.SetActive(false);
         _loseScreenPanel.SetActive(false);
         _tapToStartPanel.SetActive(true);
+        //_levelTextObject.SetActive(true);
+        //_levelCoinObject.SetActive(true);
         _elmasSayisi = _elmasSayisi + _levelSonuElmasSayisi;
         PlayerPrefs.SetInt("ElmasSayisi", _elmasSayisi);
         _tapToStartElmasText.text = _elmasSayisi.ToString();

@@ -14,6 +14,18 @@ TagManager:
   - Collectable
   - ToplamaKapisi
   - CikartmaKapisi
+  - KosanNedime
+  - NedimelerKossun
+  - NedimePaketi
+  - AtilanCicek
+  - NedimeYavaslamaSiniri
+  - FinishSiniri
+  - FinishPaketi
+  - BuketPaketi
+  - AtilanBuket
+  - SagaDonmeSiniri
+  - SolaDonmeSiniri
+  - DuzGitmeSiniri
   layers:
   - Default
   - TransparentFX

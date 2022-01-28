@@ -1,27 +1,29 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
-public class CameraMovement : MonoBehaviour
+public class CameraManager : MonoBehaviour
 {
 
-    private GameObject Player;
+    public CinemachineVirtualCamera cmVcam;
 
-    Vector3 aradakiFark;
-
-
-    void Start()
+    public void SetCameraForFinal()
     {
-        Player = GameObject.FindGameObjectWithTag("Player");
-        aradakiFark = transform.position - Player.transform.position;
+        GetComponent<CinemachineBrain>().enabled = false;
+        GetComponent<CinemachineBrain>().enabled = true;
+        cmVcam.LookAt = GameObject.FindGameObjectWithTag("AtilanBuket").transform;
+        cmVcam.Follow = GameObject.FindGameObjectWithTag("AtilanBuket").transform;
+
     }
 
-
-    void FixedUpdate()
+    public void SetCameraForStart()
     {
+        GetComponent<CinemachineBrain>().enabled = false;
+        GetComponent<CinemachineBrain>().enabled = true;
+        cmVcam.LookAt = GameObject.FindGameObjectWithTag("KarakterPaketi").transform;
+        cmVcam.Follow = GameObject.FindGameObjectWithTag("KarakterPaketi").transform;
 
-        //transform.position = Vector3.Lerp(transform.position, new Vector3(Player.transform.position.x, Player.transform.position.y + aradakiFark.y, Player.transform.position.z + aradakiFark.z), Time.deltaTime * 5f);
-        transform.position = new Vector3(0, Player.transform.position.y + aradakiFark.y, Player.transform.position.z + aradakiFark.z);
     }
 
 }

@@ -47,6 +47,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1564462920593684396}
     m_Modifications:
+    - target: {fileID: 929267497642786232, guid: f6be09b9ae53df344917951891d969ce, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 4e103965bb3704410b2340ac9b4eee0c, type: 2}
     - target: {fileID: 929267497956304723, guid: f6be09b9ae53df344917951891d969ce, type: 3}
       propertyPath: m_Name
       value: Lu_Blouse_002
@@ -95,6 +99,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7159734313821734256, guid: f6be09b9ae53df344917951891d969ce, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6be09b9ae53df344917951891d969ce, type: 3}
 --- !u!4 &972102240828818136 stripped
@@ -109,6 +117,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1564462920593684396}
     m_Modifications:
+    - target: {fileID: 481329566600360149, guid: 37efc77432774a141b8bf8e27a4eb73d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2896212992344175637, guid: 37efc77432774a141b8bf8e27a4eb73d, type: 3}
       propertyPath: m_Name
       value: Lu_Blouse_003 (1)
@@ -157,6 +169,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2896212992503105209, guid: 37efc77432774a141b8bf8e27a4eb73d, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 4e103965bb3704410b2340ac9b4eee0c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37efc77432774a141b8bf8e27a4eb73d, type: 3}
 --- !u!4 &946281191183992429 stripped
@@ -171,6 +187,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1564462920593684396}
     m_Modifications:
+    - target: {fileID: 929267497642786232, guid: f6be09b9ae53df344917951891d969ce, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 4e103965bb3704410b2340ac9b4eee0c, type: 2}
     - target: {fileID: 929267497956304723, guid: f6be09b9ae53df344917951891d969ce, type: 3}
       propertyPath: m_Name
       value: Lu_Blouse_002 (1)
@@ -219,6 +239,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7159734313821734256, guid: f6be09b9ae53df344917951891d969ce, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6be09b9ae53df344917951891d969ce, type: 3}
 --- !u!4 &2881265767163663059 stripped
@@ -233,6 +257,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1564462920593684396}
     m_Modifications:
+    - target: {fileID: 4336585082819473672, guid: d42834184fadf2948a3b54291b5fe8d2, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 4e103965bb3704410b2340ac9b4eee0c, type: 2}
     - target: {fileID: 4336585084421417285, guid: d42834184fadf2948a3b54291b5fe8d2, type: 3}
       propertyPath: m_Name
       value: Lu_Blouse_004
@@ -281,6 +309,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8750115511225806215, guid: d42834184fadf2948a3b54291b5fe8d2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d42834184fadf2948a3b54291b5fe8d2, type: 3}
 --- !u!4 &7470978835345699849 stripped
@@ -295,6 +327,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1564462920593684396}
     m_Modifications:
+    - target: {fileID: 481329566600360149, guid: 37efc77432774a141b8bf8e27a4eb73d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2896212992344175637, guid: 37efc77432774a141b8bf8e27a4eb73d, type: 3}
       propertyPath: m_Name
       value: Lu_Blouse_003
@@ -343,6 +379,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2896212992503105209, guid: 37efc77432774a141b8bf8e27a4eb73d, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 4e103965bb3704410b2340ac9b4eee0c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37efc77432774a141b8bf8e27a4eb73d, type: 3}
 --- !u!4 &5233158165054706757 stripped
@@ -405,6 +445,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lu_Blouse_005
       objectReference: {fileID: 0}
+    - target: {fileID: 7619138175118371988, guid: 1440a52d627f93d45b54a97478ec1c98, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 4e103965bb3704410b2340ac9b4eee0c, type: 2}
+    - target: {fileID: 8751167450725836622, guid: 1440a52d627f93d45b54a97478ec1c98, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1440a52d627f93d45b54a97478ec1c98, type: 3}
 --- !u!4 &581910044820608227 stripped
@@ -419,6 +467,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1564462920593684396}
     m_Modifications:
+    - target: {fileID: 6344470203293576771, guid: 6bd3f8903ec819d4f9dcade180274fe9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522621301988449802, guid: 6bd3f8903ec819d4f9dcade180274fe9, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 4e103965bb3704410b2340ac9b4eee0c, type: 2}
     - target: {fileID: 6522621302904341666, guid: 6bd3f8903ec819d4f9dcade180274fe9, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -485,6 +541,10 @@ PrefabInstance:
       propertyPath: looping
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4884049388060076010, guid: b38d5359dade39f49922fa878ffea2aa, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 4e103965bb3704410b2340ac9b4eee0c, type: 2}
     - target: {fileID: 4884049388925736331, guid: b38d5359dade39f49922fa878ffea2aa, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -533,6 +593,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lu_TBlouse_003
       objectReference: {fileID: 0}
+    - target: {fileID: 7730574045381282846, guid: b38d5359dade39f49922fa878ffea2aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b38d5359dade39f49922fa878ffea2aa, type: 3}
 --- !u!4 &2778443569626711214 stripped
@@ -547,6 +611,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1564462920593684396}
     m_Modifications:
+    - target: {fileID: 4336585082819473672, guid: d42834184fadf2948a3b54291b5fe8d2, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 4e103965bb3704410b2340ac9b4eee0c, type: 2}
     - target: {fileID: 4336585084421417285, guid: d42834184fadf2948a3b54291b5fe8d2, type: 3}
       propertyPath: m_Name
       value: Lu_Blouse_004 (1)
@@ -593,6 +661,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4336585084421649701, guid: d42834184fadf2948a3b54291b5fe8d2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750115511225806215, guid: d42834184fadf2948a3b54291b5fe8d2, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
