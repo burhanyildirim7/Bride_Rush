@@ -23,6 +23,14 @@ public class AtilanBuket : MonoBehaviour
         transform.rotation = Quaternion.Euler(0, _karakterPaketi.eulerAngles.y, 0);
     }
 
+    private void Update()
+    {
+        if (transform.position.y < 0)
+        {
+            WinAc();
+        }
+    }
+
     void FixedUpdate()
     {
         if (GameController._buketAtildi == true)
@@ -47,5 +55,11 @@ public class AtilanBuket : MonoBehaviour
     {
         _efekt.SetActive(true);
         Destroy(gameObject, 10f);
+    }
+
+    private void WinAc()
+    {
+        m_Rigidbody.isKinematic = true;
+        GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().WinOlaylari();
     }
 }

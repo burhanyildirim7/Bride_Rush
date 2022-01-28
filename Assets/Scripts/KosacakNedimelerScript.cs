@@ -105,6 +105,7 @@ public class KosacakNedimelerScript : MonoBehaviour
             _elindekiCicek.SetActive(true);
             _hareketEt = false;
             gameObject.GetComponent<CapsuleCollider>().isTrigger = true;
+            gameObject.GetComponent<Rigidbody>().isKinematic = true;
             _animator.SetBool("Victory", true);
 
             Destroy(gameObject, 2f);
