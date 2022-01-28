@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour
 
     private GameObject _player;
 
-    private UIController _uiController;
+    public UIController _uiController;
 
     private int _toplananElmasSayisi;
 
@@ -46,7 +46,7 @@ public class PlayerController : MonoBehaviour
     {
         LevelStart();
 
-        _uiController = GameObject.Find("UIController").GetComponent<UIController>();
+       // _uiController = GameObject.Find("UIController").GetComponent<UIController>();
 
     }
 
@@ -268,7 +268,7 @@ public class PlayerController : MonoBehaviour
             }
 
         }
-        else if (other.gameObject.tag == "FinishSiniri")
+       else if (other.gameObject.tag == "FinishSiniri")
         {
 
             MoreMountains.NiceVibrations.MMVibrationManager.Haptic(MoreMountains.NiceVibrations.HapticTypes.MediumImpact);

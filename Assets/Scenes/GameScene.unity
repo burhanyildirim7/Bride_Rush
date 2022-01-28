@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.4770398, g: 0.79908794, b: 0.8987446, a: 1}
+  m_IndirectSpecularColor: {r: 0.4788496, g: 0.80017924, b: 0.8994595, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1579,7 +1579,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.38268346, y: -5.3290705e-15, z: 2.6645353e-15, w: 0.92387956}
+  m_LocalRotation: {x: 0.38268346, y: -7.1054274e-15, z: 2.6645355e-15, w: 0.92387956}
   m_LocalPosition: {x: 0, y: 10, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2441,6 +2441,7 @@ MonoBehaviour:
   _atilacakBuketSpawnPoint: {fileID: 1760086762}
   _atilacakBuketObjesi: {fileID: 6242324865876149649, guid: 7b11fad9b95784942a8154a50df932ba, type: 3}
   _vCamScript: {fileID: 2029704915}
+  _uiController: {fileID: 955729542}
 --- !u!54 &1443049515
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3061,7 +3062,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 0.4620853, y: 1}
+    m_SensorSize: {x: 0.46205357, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -3077,7 +3078,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2029704915}
-  m_LocalRotation: {x: 0.38268346, y: -5.3290705e-15, z: 2.6645353e-15, w: 0.92387956}
+  m_LocalRotation: {x: 0.38268346, y: -7.1054274e-15, z: 2.6645355e-15, w: 0.92387956}
   m_LocalPosition: {x: 0, y: 10, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
