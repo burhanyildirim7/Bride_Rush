@@ -44,8 +44,8 @@ public class KosacakNedimelerScript : MonoBehaviour
             {
                 if (_yavaslamaSiniri == false)
                 {
-                    transform.Translate(Vector3.forward * Time.deltaTime * 7f);
-                    transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(0, _anlikRotation.y, 0), 70 * Time.deltaTime);
+                    transform.Translate(Vector3.forward * Time.deltaTime * 8f);
+                    transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(0, _anlikRotation.y, 0), 80 * Time.deltaTime);
                 }
                 else
                 {
@@ -87,6 +87,7 @@ public class KosacakNedimelerScript : MonoBehaviour
             _elindekiCicek.SetActive(true);
             _hareketEt = false;
             gameObject.GetComponent<CapsuleCollider>().isTrigger = true;
+            gameObject.GetComponent<Rigidbody>().isKinematic = true;
             _animator.SetBool("Victory", true);
 
             Destroy(gameObject, 2f);

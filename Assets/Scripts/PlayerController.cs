@@ -27,6 +27,8 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private GameObject _vCamScript;
 
+    [SerializeField] private Text _cicekAdetiText;
+
     private int _elmasSayisi;
 
     private GameObject _player;
@@ -40,6 +42,8 @@ public class PlayerController : MonoBehaviour
     private float _atisHizi;
 
     private GameObject _atilanBuket;
+
+    private int _buketDegerText;
 
 
     void Start()
@@ -162,6 +166,9 @@ public class PlayerController : MonoBehaviour
 
             MoreMountains.NiceVibrations.MMVibrationManager.Haptic(MoreMountains.NiceVibrations.HapticTypes.MediumImpact);
 
+            _buketDegerText -= 1;
+            _cicekAdetiText.text = _buketDegerText.ToString();
+
             if (_buketDegeri > 10)
             {
                 _buketDegeri -= 1;
@@ -188,6 +195,9 @@ public class PlayerController : MonoBehaviour
 
             MoreMountains.NiceVibrations.MMVibrationManager.Haptic(MoreMountains.NiceVibrations.HapticTypes.MediumImpact);
 
+            _buketDegerText += 1;
+            _cicekAdetiText.text = _buketDegerText.ToString();
+
             if (_buketDegeri < 50)
             {
                 _buketDegeri += 1;
@@ -206,6 +216,9 @@ public class PlayerController : MonoBehaviour
 
             MoreMountains.NiceVibrations.MMVibrationManager.Haptic(MoreMountains.NiceVibrations.HapticTypes.MediumImpact);
 
+            _buketDegerText += other.gameObject.GetComponent<KapiScript>()._kapiDegeri;
+            _cicekAdetiText.text = _buketDegerText.ToString();
+
             if (_buketDegeri < 50)
             {
                 _buketDegeri += other.gameObject.GetComponent<KapiScript>()._kapiDegeri;
@@ -223,6 +236,9 @@ public class PlayerController : MonoBehaviour
         {
 
             MoreMountains.NiceVibrations.MMVibrationManager.Haptic(MoreMountains.NiceVibrations.HapticTypes.MediumImpact);
+
+            _buketDegerText -= other.gameObject.GetComponent<KapiScript>()._kapiDegeri;
+            _cicekAdetiText.text = _buketDegerText.ToString();
 
             if (_buketDegeri > (9 + other.gameObject.GetComponent<KapiScript>()._kapiDegeri))
             {
@@ -246,6 +262,9 @@ public class PlayerController : MonoBehaviour
         {
 
             MoreMountains.NiceVibrations.MMVibrationManager.Haptic(MoreMountains.NiceVibrations.HapticTypes.MediumImpact);
+
+            _buketDegerText -= 1;
+            _cicekAdetiText.text = _buketDegerText.ToString();
 
             if (_buketDegeri > 10)
             {
@@ -403,6 +422,8 @@ public class PlayerController : MonoBehaviour
         GameController._buketAtildi = false;
         _atisHizi = 0;
         _buketDegeri = 10;
+        _buketDegerText = 1;
+        _cicekAdetiText.text = _buketDegerText.ToString();
         _buketPaketi.SetActive(true);
         float buketbuyuklugu = _buketDegeri / 100;
         _buketPaketi.transform.localScale = new Vector3(buketbuyuklugu, buketbuyuklugu, buketbuyuklugu);
